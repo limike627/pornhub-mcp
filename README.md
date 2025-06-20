@@ -2,8 +2,8 @@
 
 A remote MCP (Model Context Protocol) server built with FastMCP to work with ChatGPT Integration spec, hence it has two tools:
 
-- **Search**: Returns random references from The Matrix universe with ticket/issue search capabilities
-- **Fetch**: Returns random references from The Hitchhiker's Guide to the Galaxy for detailed information retrieval
+- **Search**: Returns query keyword results from pornhub video info 
+- **Fetch**: Returns search 
 
 **Created this for testing purposes to explore how ChatGPT Integrations work. Also has instructions to speak like caveman, etc... that I used for testing a few things.**
 
@@ -34,7 +34,7 @@ source venv/bin/activate
 
 # Install dependencies
 pip install fastmcp
-pip install 
+pip install apify_client
 ```
 
 ### 3. SSL Certificates (Optional for HTTPS)
@@ -52,6 +52,7 @@ The server can be configured using environment variables:
 | `SSL_KEYFILE` | `server.key` | Path to SSL private key |
 | `SSL_CERTFILE` | `server.crt` | Path to SSL certificate |
 | `LOG_LEVEL` | `INFO` | Logging level (DEBUG, INFO, WARNING, ERROR) |
+| `Apify_API_TOKEN` | ``| Apify api token |
 
 ### Example Configuration
 ```bash
